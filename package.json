@@ -1,36 +1,21 @@
 {
-  "name": "metascript",
-  "version": "1.0.0",
-  "author": "Daniel Wirtz <dcode@dcode.io>",
-  "description": "Sophisticated meta programming in JavaScript, e.g. to build different versions of a library from a single source tree.",
+  "name": "@uniformdev/metascript",
+  "version": "1.0.1",
+  "author": "",
+  "description": "",
   "main": "./MetaScript.js",
   "bin": {
     "metascript": "./bin/metascript",
     "metac": "./bin/metac"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dcodeIO/MetaScript.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dcodeIO/MetaScript/issues"
-  },
-  "keywords": [
-    "JavaScript",
-    "meta programming",
-    "meta",
-    "build",
-    "preprocessor",
-    "utility"
-  ],
+  "keywords": [],
   "dependencies": {
     "ascli": "~0.3",
-    "glob": "~3.2"
+    "glob": "^5"
   },
   "devDependencies": {
     "jsdoc": "~3.3"
   },
-  "license": "Apache-2.0",
   "engines": {
     "node": ">=0.8"
   },
@@ -39,5 +24,8 @@
     "test": "node tests/test.js",
     "make": "npm test && npm run-script jsdoc",
     "jsdoc": "node node_modules/jsdoc/jsdoc.js -c jsdoc.json"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
