@@ -1,3 +1,10 @@
+# MetaScript Fork
+
+This is a **fork of MetaScript**, originally created by [dcodeIO](https://github.com/dcodeIO).  
+This fork includes **updated dependencies** and ongoing **maintenance improvements** to ensure compatibility with modern environments.  
+
+Feel free to contribute, report issues, or suggest improvements! 🚀  
+
 ![MetaScript](https://raw.github.com/dcodeIO/MetaScript/master/MetaScript.png)
 ==============================================================================
 

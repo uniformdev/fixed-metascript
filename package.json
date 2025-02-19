@@ -1,14 +1,15 @@
 {
   "name": "@uniformdev/metascript",
   "version": "1.0.1",
-  "author": "",
-  "description": "",
+  "author": "@uniformdev/metascript",
+  "description": "A fork of MetaScript, originally created by dcodeIO. Maintained and updated  dependencies.",
   "main": "./MetaScript.js",
   "bin": {
     "metascript": "./bin/metascript",
     "metac": "./bin/metac"
   },
   "keywords": [],
+  "license": "Apache-2.0",
   "dependencies": {
     "ascli": "~0.3",
     "glob": "^5"
