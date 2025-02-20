@@ -1,8 +1,8 @@
 {
   "name": "@uniformdev/metascript",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "author": "@uniformdev/metascript",
-  "description": "A fork of MetaScript, originally created by dcodeIO. Maintained and updated  dependencies.",
+  "description": "A fork of MetaScript, originally created by dcodeIO. Maintained and updated dependencies.",
   "main": "./MetaScript.js",
   "bin": {
     "metascript": "./bin/metascript",
